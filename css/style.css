@@ -1,0 +1,103 @@
+body {
+	font-family: 'Lato', sans-serif;
+	background-color: #000000;
+}
+
+.header {
+	 padding: 5%;
+}
+
+h1 {
+	font-family: 'Courgette';
+	font-size: 350%;
+	color: #48cfcb;
+}
+
+h2 {
+	color: #48cfcb;
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+
+h3 {
+	color: #48cfcb;
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+
+/*.nav-tabs{
+  background-color:#161616;
+  
+}*/
+/*.tab-content{
+    background-color:#303136;
+    color:#fff;
+    padding:5px
+}*/
+.nav-tabs > li > a{
+  border: medium none;
+  color:#fff;
+}
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus{
+	background-color: #fff;
+	color: #000;
+}
+
+.nav-tabs > li > a:hover{
+    background-color: #404040;
+    border: medium none;
+    border-radius: 0;
+    color:#fff;
+}
+
+.nav-tabs > li.dropdown.open > a{
+    background-color: #404040;
+    border: medium none;
+    border-radius: 0;
+    color:#fff;
+}
+
+
+/*@-webkit-keyframes animateBorder {
+	to {
+		box-shadow: 0 0 0 10px black;
+	}
+}
+@-moz-keyframes animateBorder {
+	to {
+		box-shadow: 0 0 0 10px black;
+	}
+}
+@-o-keyframes animateBorder {
+	to {
+		box-shadow: 0 0 0 10px black;
+	}
+}
+@keyframes animateBorder {
+	to {
+		box-shadow: 0 0 0 10px black;
+	}
+}
+
+
+.avatar {
+	box-shadow: 0 0 0 0.1px #48cfcb;
+
+	-webkit-animation: animateBorder 2s ease infinite;
+	-moz-animation: animateBorder 2s ease infinite;
+	-o-animation: animateBorder 2s ease infinite;
+	animation: 2s animateBorder ease infinite;
+
+	 https://www.gradient-animator.com/ 
+}*/
+
+/* @keyframes animateBorder {
+	to {
+		box-shadow: 0 0 0 10px black;
+	}
+} */
+
+
