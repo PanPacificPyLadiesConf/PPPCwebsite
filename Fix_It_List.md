@@ -2,6 +2,9 @@
 
 1. When you click on the dropdown menu and click on the caret again to close it the tab is white with grey writing, even though you did not open any of the tabs subdomains
 
+##Design needs
+- Right now the website is not particularly visually appealing, if you are interested in designing the background, let us know panpacificpyladiesconf@gmail.com
+
 ##Content to add
 - Complete home page (what do we want the site to look like?)
 - What is PPPC?
