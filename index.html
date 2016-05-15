@@ -11,6 +11,7 @@
 	    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 	    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
 		<link rel="stylesheet" href="css/style.css">
+		<style>#map {width: 500px; height: 400px;}</style>
 	</head>
 	<body>
 		<div class="container-fluid">
@@ -41,24 +42,24 @@
 							<li><a data-toggle="tab" href="#meals">Meals</a></li>-->
 						</ul>
 					</li>
-					<li class="dropdown">
+					<!--<li class="dropdown">
 						<a class="dropdown-toggle" data-toggle="dropdown" href="#events">Events<span class="caret"></span></a>
 						<ul class="dropdown-menu">
-							<!--<li><a data-toggle="tab" href="#jobfair">Job Fair</a></li>
+							<li><a data-toggle="tab" href="#jobfair">Job Fair</a></li>
 							<li><a data-toggle="tab" href="#startuprow">Startup Row</a></li>
-							<li><a data-toggle="tab" href="#nonprofitrow">Non-profit Row</a></li>-->
+							<li><a data-toggle="tab" href="#nonprofitrow">Non-profit Row</a></li>
 							<li><a data-toggle="tab" href="#exhibithall">Exhibit Hall</a></li>
 						</ul>
-					</li>
+					</li>-->
 					<li class="dropdown">
 						<a class="dropdown-toggle" data-toggle="dropdown" href="#sponsors">Sponsors<span class="caret"></span></a>
 						<ul class="dropdown-menu">
 							<li><a data-toggle="tab" href="#oursponsors">Our Sponsors</a></li>
-							<!--<li><a data-toggle="tab" href="#whysponsor">Why Sponsor PPPC?</a></li>
+							<!--<li><a data-toggle="tab" href="#whysponsor">Why Sponsor PPPC?</a></li>-->
 							<li><a data-toggle="tab" href="#sponsorprospectus">Sponsorship Prospectus</a></li>
-							<li><a data-toggle="tab" href="#applysponsor">Apply to be a Sponsor</a></li>
-							<li><a data-toggle="tab" href="#sponsorlogistics">Logistics for Sponsors</a></li>-->
-							<li><a data-toggle="tab" href="#exhibithall">Exhibit Hall Information</a></li>
+							<!--<li><a data-toggle="tab" href="#applysponsor">Apply to be a Sponsor</a></li>
+							<li><a data-toggle="tab" href="#sponsorlogistics">Logistics for Sponsors</a></li>
+							<li><a data-toggle="tab" href="#exhibithall">Exhibit Hall Information</a></li>-->
 						</ul>
 					</li>
 					<li class="dropdown">
@@ -253,6 +254,24 @@
 					<div id="overview" class="tab-pane fade">
 						<h3>Overview</h3>
 						<p>Overview of the schedule.</p>
+						<table>
+							<tr>
+								<th>Time</th>
+								<th>Event</th>
+							</tr>
+							<tr>
+								<td>8:00am</td>
+								<td>Breakfast</td>
+							</tr>
+							<tr>
+								<td>12:00pm</td>
+								<td>Lunch</td>
+							</tr>
+							<tr>
+								<td>5:00pm</td>
+								<td>Dinner</td>
+							</tr>
+						</table>
 					</div>
 					<!--<div id="talks" class="tab-pane fade">
 						<h3>Talks</h3>
@@ -287,12 +306,60 @@
 					<!--<div id="whysponsor" class="tab-pane fade">
 						<h3>Why Sponsor PPPC?</h3>
 						<p>You should sponsor PPPC because they are awesome!</p>
-					</div>
+					</div>-->
 					<div id="sponsorprospectus" class="tab-pane fade">
 						<h3>Sponsorship Prospectus</h3>
-						<p>Here's info please sponsor us.</p>
+						<h4>Contact: panpacificpyladiesconf@gmail.com</h4>
+						<h5>Tiffany Glenn-Hall, PPPC Conference Chair</h5>
+						<h5>The Pan-Pacific PyLadies Conference brings together women interested in the Python open-source community. We aim to foster technical development and camaraderie between women from across the pacific region. For our first PPPC we will focus on PyLadies in the United States and Mexico, as entrepreneurs, developers and Python open-source contributors. We want PPPC to be accessible and enjoyable for as many enthusiasts as possible, to accomplish this goal we set our registration as cheap as possible and will be providing all meals.</h5>
+						<h5>Your sponsorship helps keep PPPC affordable and accessible to the widest possible audience. PPPC is organized by volunteers from the Python community.</h5>
+						<h5>The available sponsorships are below. Don't see what you want? Contact us any time, we are flexible and willing to work with you to design the sponsorship package that will fulfill your business needs.</h5>
+						<ul style="list-style-type:disc">
+							<li><a href="#diamondspons">Diamond Level Sponsorship</a></li>
+							<li><a href="#platinumspons">Platinum Level Sponsorship</a></li>
+							<li><a href="#goldspons">Gold Level Sponsorship</a></li>
+							<li><a href="#silverspons">Silver Level Sponsorship</a></li>
+							<li><a href="#patronspons">Patron Level Sponsorship</a></li>
+						</ul>
+						<h4>Estimated Attendance: 150+</h4>
+						<h4>Audience Profile:</h4>
+						<h5>Developers, technologists, programmers, educators, bloggers, authors, web developers, CTOs, managers, entrepreneurs, scientists, engineers, and domain experts</h5>
+						<h4>Come Learn About:</h4>
+						<h5>Python internals, beginner and advanced skills. Use cases and case studies. Python used in a variety of industries including robotics, startups and enterprise. Python powering some of the Web's biggest sites. Speeding up your Python applications. The growing Python ecosystem and community.</h5>
+						<h4>Customized Sponsor Package:</h4>
+						<h5>Keep in mind, if you do not see what you want, contact us any time. We are flexible and willing to work with you to design the sponsorship package that will fulfill your business needs.</h5>
+						<h5>Media sponsorship: please contact us at panpacificpyladiesconf@gmail.com to discuss available sponsorship option.</h5>
+						<h4>Conference Schedule</h4>
+						<ul>
+							<li>breakfast</li>
+							<li>3 data science talks</li>
+							<li>lunch</li>
+							<li>3 web development talks</li>
+							<li>dinner</li>
+						</ul>
+						<h4>Exhibit Floor Information and Schedule</h4>
+						<h5><mark>Do we want an exhibitors area?</mark></h5>
+						<h4>Job Fair Information</h4>
+						<h5><mark>Do we want a job fair?</mark></h5>
+						<h4>Sponsor Packages</h4>
+						<a name="diamondspons"></a>
+						<h5>Diamond Level Sponsorship - $3000 USD</h5>
+						<a name="platinumspons"></a>
+						<h5>Platinum Level Sponsorship - $2000 USD</h5>
+						<a name="goldspons"></a>
+						<h5>Gold Level Sponsorship - $1000 USD</h5>
+						<a name="silverspons"></a>
+						<h5>Silver Level Sponsorship - $500 USD</h5>
+						<a name="patronspons"></a>
+						<h5>Patron Level Sponsorship - $100 USD</h5>
+						<h4>A La Carte Options (Can Be Added To Other Packages)</h4>
+						<h5>Conference Translators</h5>
+						<h5>Recording of talks</h5>
+						<h5>Coffee Break Sponsorship</h5>
+						<h5>Table in the job fair?</h5>
+						<h5>Daycare</h5>
 					</div>
-					<div id="applysponsor" class="tab-pane fade">
+					<!--<div id="applysponsor" class="tab-pane fade">
 						<h3>Apply to be a Sponsor</h3>
 						<p>We hope you are awesome and want to sponsor us</p>
 					</div>
@@ -303,12 +370,28 @@
 
 					<div id="venue" class="tab-pane fade">
 						<h3>Venue</h3>
-						<p>The content inside of menu 3.
+						<p>Pan-Pacific PyLadies is taking place at the Bit Center in Tijuana, Baja California, Mexico. The map below shows the Bit Center in relation to <mark>several hotels</mark>, that you can read more about below.</p>
+						<p>
 							The Bit Center (Business Innovation and Technology Center)
 							bitcenter.mx
 							Address:
-							Blvrd de Las Americas Ote, El Paraíso, La Mesa, 22106 Tijuana, B.C., Mexico
+							Blvrd Gustavo Díaz Ordaz 12415
+							El Paraíso
+							22106 Tijuana, B.C.
+							Mexico
 						</p>
+						<div id="map"></div>
+						<script>
+							function initMap(){
+								var mapDiv = document.getElementById('map');
+								var map = new google.maps.Map(mapDiv, {
+									center: {lat: 44.540, lng: -78.546},
+									zoom: 8
+								});
+							}
+						</script>
+						<script src="https://maps.googleapis.com/maps/api/js?callback=initMap" async defer></script>
+
 					</div>
 					<!--<div id="hotels" class="tab-pane fade">
 						<h3>Hotels</h3>

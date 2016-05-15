@@ -66,6 +66,16 @@ h5 {
     color:#fff;
 }
 
+table, th, td {
+	border: 1px solid white;
+	border-collapse: collapse;
+}
+
+th, td {
+	padding: 5px;
+	text-align: left;
+	color: #fff;
+}
 
 /*@-webkit-keyframes animateBorder {
 	to {
