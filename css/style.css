@@ -7,6 +7,27 @@ body {
 	 padding: 5%;
 }
 
+/*.row > div > img {
+	width: 100%;
+	display: block;
+}*/
+
+.header-image {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.header-image img {
+	width: 100%;
+	height: 57px;
+}
+
+.header-separation {
+	background-color: #48cfcb;
+	min-height: 100%;
+	height: 57px;
+}
+
 h1 {
 	font-family: 'Courgette';
 	font-size: 350%;
