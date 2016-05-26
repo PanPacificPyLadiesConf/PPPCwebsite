@@ -82,6 +82,7 @@ h5 {
 }
 
 table, th, td {
+	margin-left: 5%;
 	border: 1px solid white;
 	border-collapse: collapse;
 }
@@ -93,10 +94,11 @@ th, td {
 }
 
 .link {
-	color: #48cfcb;
-	margin-top: 1%;
-	margin-bottom: 1%;
-	font-weight: 500;
+	color: #fff;
+	font-size: 140%;
+	line-height: 0%;
+	margin-left: 5%;
+	margin-right: 5%;
 }
 
 .home {
@@ -108,4 +110,75 @@ th, td {
 	margin-top: 4%;
 	margin-bottom: 3%;
 }
+
+.smallBlue {
+	font-size: 150%;
+}
+
+iframe {
+	max-width: 100%;
+}
+
+.spons-box {
+	border-style: solid;
+	border-width: medium;
+	border-color: #fff;
+	margin: 2%;
+}
+
+.spons-logo {
+	padding: 1%;
+	border-style: solid;
+	border-width: medium;
+	border-color: #A0A0A0;
+	background-color: #C0C0C0;
+	width: 70%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.psf-logo {
+	padding: 1%;
+	margin-left: 9%;
+	border-style: solid;
+	border-width: medium;
+	border-color: #A0A0A0;
+	background-color: #C0C0C0;
+	width: 20%;
+}
+
+.pyladies-logo {
+	padding: 1%;
+	margin-left: 9%;
+	border-style: solid;
+	border-width: medium;
+	border-color: #737373;
+	background-color: #1a1a1a;
+	width: 20%;
+}
+
+.address {
+	margin-top: 3%;
+}
+
+.address h4 {
+	color: #fff;
+	font-size: 140%;
+	line-height: 80%;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.sponsor-link {
+	font-size: 140%;
+	line-height: 110%;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.footer {
+	margin-top: 10%;
+	text-align: center;
+}
+
 
